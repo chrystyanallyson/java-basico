@@ -18,5 +18,9 @@ public class Usuario {
         smartTv.mudarCanal(13);
 
         System.out.println("CANAL: " + smartTv.canal);
+        smartTv.mudarCanal(2);
+        System.out.println("CANAL: " + smartTv.canal);
+        smartTv.canalAnterior();
+        System.out.println("CANAL ANTERIOR: " + smartTv.canal);
     }
 }
