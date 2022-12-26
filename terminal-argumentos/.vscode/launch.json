@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AboutMe2",
+            "request": "launch",
+            "mainClass": "AboutMe2",
+            "projectName": "terminal-argumentos_c5e93146"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "terminal-argumentos_c5e93146",
+            "args": [
+                "chrystyan",
+                "allyson",
+                "24",
+                "1.82"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch minhaClasse",
+            "request": "launch",
+            "mainClass": "minhaClasse",
+            "projectName": "terminal-argumentos_c5e93146"
+        }
+    ]
+}
